@@ -6,9 +6,9 @@ void i_o_f()
 {
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     #ifndef ONLINE_JUDGE
-    //input.txt = for input
+    input.txt = for input
     freopen("input.txt", "r", stdin);
-    //output.txt = for output
+    output.txt = for output
     freopen("output.txt", "w", stdout);
     #endif
 }
